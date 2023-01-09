@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'poppins';
+}
+
+main {
+  width: 90%;
+  max-width: 1300px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+movie-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+movie-item{
+  background-color: rgb(33, 50, 94);
+}
